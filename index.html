@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./src/script.js" defer></script>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="utility.css">
+    <script src="https://kit.fontawesome.com/a1b02c4812.js" crossorigin="anonymous"></script>
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left ">
+            <div class="top b-r1">
+                <img width="150" src="./svgs/logo.svg" style="filter: invert(1);" alt="">
+                <button class="cross"><i class="fa-solid fa-xmark"></i></button>
+                <ul>
+                    <li><img src="./svgs/home.svg" alt="Home"><a href="#">Home</a></li>
+                    <li "><img src=" ./svgs/search.svg" alt="Search"><a href="#" style="color: #88878b;">Search</a></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <div class="library">
+                    <div class="both">
+                        <img src="./svgs/library.svg" style="filter: invert(0.5); width: 25px;" alt="">
+                        <a href="#" style="text-decoration: none; color: #88878b; font-size: 15px;     font-weight: 600;
+                         ">Your Library</a>
+                    </div>
+                    <img src="./svgs/plus.svg" style="filter: invert(0.5); width: 19px; " alt="">
+                </div>
+                <div class="library-songs">
+                    <ul class="songList">
+
+                    </ul>
+                </div>
+                <div class="library-footer">
+                    <div class="links">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policies</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                    <div class="language">
+                        <button> <img src="./svgs/language.svg" alt=""
+                                style="filter: invert(1); width: 15px;">English</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right b-r1">
+            <div class="upper">
+                <div class="arrows">
+                    <button style="margin-right: 5px;" class="hamburger"><i class="fa-solid fa-bars"></i></button>
+                    <button><i class="fa-solid fa-angle-left"></i></button>
+                    <button><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+                <div class="signing">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="spotify-playlists">
+                    <h1>Spotify Playlists</h1>
+                    <a href="#">Show all</a>
+                </div>
+                <div class="cards">
+
+
+
+
+
+                </div>
+                <div class="about-sec">
+                    <div class="links-footer">
+                        <div class="box-1 box-data">
+                            <h3>Company</h3>
+                            <a href="#">About</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">For The Record</a>
+                        </div>
+                        <div class="box-2 box-data">
+                            <h3>Communities</h3>
+                            <a href="#">For Artists</a>
+                            <a href="#">Developers</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Investors</a>
+                            <a href="#">Vendors</a>
+                        </div>
+                        <div class="box-3 box-data">
+                            <h3>Useful links</h3>
+                            <a href="#">Support</a>
+                            <a href="#">Free Mobile App</a>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                        <button><i class="fa-brands fa-square-instagram"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                    </div>
+                </div>
+                <div class="patent">
+                    <p> &#169; Made By Mohammad Salim</p>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="songPlay">
+                    <button id="previous"><i class="fa-solid fa-backward-step"></i></button>
+                    <button id="play"><i class="fa-solid fa-play"></i></button>
+                    <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+                </div>
+                <div class="soundbar">
+                    <div class="circle"></div>
+                    <div class="detailInfoss">
+                        <span class="detailInfo currentTime">00:00</span>
+                        <span class="detailInfo duration">04:00</span>
+
+                    </div>
+                </div>
+                <div class="songDetails">
+                    <p class="songInfo">.....................</p>
+                </div>
+                <div class="volume">
+                    <img src="./svgs/volume.svg" alt="" class="volumeImg">
+                    <input type="range">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
